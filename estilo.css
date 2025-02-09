@@ -6,13 +6,23 @@
 
 /**Geral**/
 
+html, body {
+    overflow-x: hidden;
+}
+
 body{
     background-color: #c2c2c2;
 }
 
-#container{
-    margin: 0 70px;
-    padding: 10px 0;
+#container {
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 90%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .btn-vermelho{
@@ -429,6 +439,7 @@ hr{
 
 .menu img{
     width: 60%;
+    max-width: 333px;
     justify-content: flex-start;
 }
 
@@ -446,7 +457,7 @@ hr{
 
 .informacoes img{
     width: 644px;
-    height: 436px;
+    height: auto;
     margin: 10px 20px 10px 0;
 }
 
@@ -847,14 +858,14 @@ hr{
     text-align: right;
 }
 
-.menu-mobile li a:hover{
+.menu-moble li a:hover{
     transform: scale(1.1);
     transition: 0.5s;
 }
 
 #btn-menu{
-    width: 10%;
-    height: 10%;
+    width: 30%;
+    height: 30%;
     border: 2px solid black;
     color:#c2c2c2;
     background: transparent;
@@ -948,6 +959,7 @@ hr{
 
     .menu img{
         width: 60%;
+        max-width: 333px;
         justify-content: flex-start;
     }
 
@@ -1056,7 +1068,7 @@ hr{
     }
 
     .parte3 p{
-        font-size: 12px;
+        font-size: 18px;
         text-align: center;
     }
 
